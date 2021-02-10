@@ -1,73 +1,79 @@
 body {
-  margin: 0 10%
+    margin: 0 10%
 }
+
 /* Top-Section */
 .post-it {
-  float: right;
+    float: right;
 }
 
 /* Mid-Section */
 .mid-section {
-  display: flex;
-  justify-content: flex-start;
+    display: flex;
+    justify-content: flex-start;
 }
 
 .form {
-  background-color: yellow;
-  width: 50%;
-  height: 400px;
+    background-color: yellow;
+    width: 50%;
+    height: 400px;
 
 }
 
 .mid-text {
-  margin: 0 auto;
-  padding-top: 100px;
+    margin: 0 auto;
+    padding-top: 100px;
 }
 
 /* Bottom-Section */
 .question-text {
-  text-align: center;
+    text-align: center;
 }
 
 .searchbar {
-  text-align: center;
-  padding: 30px 0;
+    text-align: center;
+    padding: 30px 0;
 }
 
 .searchbar input {
-  padding: 10px;
-  font-size: 17px;
-  border: 1px solid grey;
-  width: 55%;
-  background: #f1f1f1;
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    width: 55%;
+    background: #f1f1f1;
 }
 
 .searchbar button {
-  width: 5%;
-  padding: 20px;
-  background: #2196F3;
-  color: white;
-  font-size: 17px;
-  border: 1px solid grey;
-  border-left: none;
-  cursor: pointer;
+    width: 5%;
+    padding: 20px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
 }
 
 /* Images-Section */
-.images-section{
-  display: grid;
-  column-gap: 10px;
-  row-gap: 15px;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-row: 1fr 1fr 1fr;
+.images-section {
+    display: grid;
+    column-gap: 10px;
+    row-gap: 15px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-row: 1fr 1fr 1fr;
+}
+
+/* Single card */
+.image {
+    border: thin solid red;
 }
 
 .more-button {
-  text-align: center;
+    text-align: center;
 }
 
 /* Footer */
 .footer {
-  text-align: center;
-  background-color: blue;
+    text-align: center;
+    background-color: blue;
 }
