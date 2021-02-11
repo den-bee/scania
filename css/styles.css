@@ -25,6 +25,8 @@ body {
 
 .mid-text {
   margin: 0 auto;
+  position: relative;
+  top: 150px;
 }
 
 /* Bottom-Section */
@@ -46,11 +48,11 @@ body {
 }
 
 .searchbar button {
-  width: 5%;
-  padding: 20px;
+  width: 10%;
+  padding: 15px;
   background: #2196F3;
   color: white;
-  font-size: 17px;
+  font-size: 10px;
   border: 1px solid grey;
   border-left: none;
   cursor: pointer;
