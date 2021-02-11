@@ -1,71 +1,71 @@
 html {
-  margin: 0 10%;
+    margin: 0 10%;
 }
 
 body {
 
 }
+
 /* Top-Section */
 .post-it {
-  float: right;
+    float: right;
 
 }
 
 /* Mid-Section */
 .mid-section {
-  display: flex;
-  justify-content: flex-start;
+    display: flex;
+    justify-content: flex-start;
 }
 
 .form {
-  background-color: yellow;
-  width: 50%;
-  height: 400px;
+    background-color: yellow;
+    width: 50%;
+    height: 400px;
 }
 
 .mid-text {
-  margin: 0 auto;
-  position: relative;
-  top: 150px;
+    margin: 0 auto;
+    position: relative;
+    top: 150px;
 }
 
 /* Bottom-Section */
 .question-text {
-  text-align: center;
+    text-align: center;
 }
 
 .searchbar {
-  text-align: center;
-  padding: 30px 0;
+    text-align: center;
+    padding: 30px 0;
 }
 
 .searchbar input {
-  padding: 10px;
-  font-size: 17px;
-  border: 1px solid grey;
-  width: 55%;
-  background: #f1f1f1;
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    width: 55%;
+    background: #f1f1f1;
 }
 
 .searchbar button {
-  width: 10%;
-  padding: 15px;
-  background: #2196F3;
-  color: white;
-  font-size: 10px;
-  border: 1px solid grey;
-  border-left: none;
-  cursor: pointer;
+    width: 10%;
+    padding: 15px;
+    background: #2196F3;
+    color: white;
+    font-size: 10px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
 }
 
 /* Images-Section */
 .images-section {
-  columns: 3 200px;
-  column-gap: 1rem;
+    columns: 3 200px;
+    column-gap: 1rem;
 }
 
 .images-section image {
-    width: 150px;
     background: #EC985A;
     color: white;
     margin: 0 1rem 1rem 0;
@@ -74,54 +74,60 @@ body {
     text-align: center;
 }
 
+.image {
+    padding: 2rem;
+    border: thin solid red;
+    margin-bottom: 1rem;
+}
+
 .more-button {
-  background-color: blue;
-  border: none;
-  color: white;
-  padding: 5px 10px;
-  margin: auto;
-  width: 50%;
-  text-align: center;
-  text-decoration: none;
-  display: block;
-  font-size: 16px;
-  cursor: pointer;
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    cursor: pointer;
 }
 
 /* Footer */
 .footer {
-  text-align: center;
-  background-color: blue;
+    text-align: center;
+    background-color: blue;
 }
 
 /* Mediaqueries */
 
 /* Mobile */
 @media only screen and (max-width: 480px) {
-  .images-section {
-    display: block;
-    text-align: center;
-  }
+    .images-section {
+        display: block;
+        text-align: center;
+    }
 }
 
 /* Tablet */
 @media only screen and (max-width: 768px) {
-  .images-section {
-    display: block;
-    text-align: center;
-  }
+    .images-section {
+        display: block;
+        text-align: center;
+    }
 }
 
 /* Tablet Landscape */
 @media only screen and (max-width: 1024px) {
-  .images-section {
+    .images-section {
 
-  }
+    }
 }
 
 /* Laptop */
 @media only screen and (max-width: 1600px) {
-  .images-section {
+    .images-section {
 
-  }
+    }
 }
