@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'Scania Sans Condensed V2';
+    src: url('ScaniaSansCondensedV2-Bold.woff2') format('woff2'),
+        url('ScaniaSansCondensedV2-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Scania Sans Condensed V2';
+    src: url('ScaniaSansCondensedV2-Italic.woff2') format('woff2'),
+        url('ScaniaSansCondensedV2-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Scania Sans Condensed V2';
+    src: url('ScaniaSansCondensedV2-Regular.woff2') format('woff2'),
+        url('ScaniaSansCondensedV2-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Scania Sans Headline V2';
+    src: url('ScaniaSansHeadlineV2-Regular.woff2') format('woff2'),
+        url('ScaniaSansHeadlineV2-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Scania Sans Headline V2';
+    src: url('ScaniaSansHeadlineV2-Bold.woff2') format('woff2'),
+        url('ScaniaSansHeadlineV2-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Scania Sans V2';
+    src: url('ScaniaSansV2-Bold.woff2') format('woff2'),
+        url('ScaniaSansV2-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Scania Sans V2';
+    src: url('ScaniaSansV2-Italic.woff2') format('woff2'),
+        url('ScaniaSansV2-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Scania Sans V2';
+    src: url('ScaniaSansV2-Regular.woff2') format('woff2'),
+        url('ScaniaSansV2-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
