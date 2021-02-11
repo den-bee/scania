@@ -13,28 +13,26 @@ body {
 }
 
 /* Top-Section */
-.post-it {
-    float: right;
-
+.top-section {
+  display: flex;
+  justify-content: space-between;
 }
 
 /* Mid-Section */
 .mid-section {
-    /*display: flex;*/
-    /*justify-content: flex-start;*/
+    display: flex;
+    justify-content: space-between;
     background-color: pink;
 }
 
 .form {
     background-color: yellow;
-    width: 50%;
-    height: 400px;
+    width: 300px;
+    height: 500px;
 }
 
 .mid-text {
-    margin: 0 auto;
-    position: relative;
-    top: 150px;
+
 }
 
 /* Bottom-Section */
@@ -45,13 +43,15 @@ body {
 .searchbar {
     text-align: center;
     padding: 3rem 0;
+    display: flex;
+    justify-content: center;
 }
 
 .searchbar input {
     padding: 10px;
     font-size: 17px;
     border: 1px solid grey;
-    width: 55%;
+    width: 30%;
     background: #f1f1f1;
 }
 
@@ -68,23 +68,29 @@ body {
 
 /* Images-Section */
 .images-section {
-    columns: 3 200px;
-    column-gap: 1rem;
+    display: flex;
+    margin-left: 15px;
 }
 
-.images-section image {
-    background: #EC985A;
-    color: white;
-    margin: 0 1rem 1rem 0;
-    display: inline-block;
-    width: 100%;
-    text-align: center;
+.images-section row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.image-section column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
 }
 
 .image {
     padding: 2rem;
     border: thin solid red;
     margin-bottom: 1rem;
+
 }
 
 .more-button {
@@ -99,6 +105,7 @@ body {
     display: block;
     font-size: 16px;
     cursor: pointer;
+    margin-top: 50px;
 }
 
 /* Footer */
