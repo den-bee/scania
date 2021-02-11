@@ -1,9 +1,14 @@
+html {
+  margin: 0 10%;
+}
+
 body {
-  margin: 0 10%
+
 }
 /* Top-Section */
 .post-it {
   float: right;
+
 }
 
 /* Mid-Section */
@@ -16,12 +21,10 @@ body {
   background-color: yellow;
   width: 50%;
   height: 400px;
-
 }
 
 .mid-text {
   margin: 0 auto;
-  padding-top: 100px;
 }
 
 /* Bottom-Section */
@@ -54,20 +57,62 @@ body {
 }
 
 /* Images-Section */
-.images-section{
+.images-section {
   display: grid;
   column-gap: 10px;
   row-gap: 15px;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-row: 1fr 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: masonry;
 }
 
 .more-button {
+  background-color: blue;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  margin: auto;
+  width: 50%;
   text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  cursor: pointer;
 }
 
 /* Footer */
 .footer {
   text-align: center;
   background-color: blue;
+}
+
+/* Mediaqueries */
+
+/* Mobile */
+@media only screen and (max-width: 480px) {
+  .images-section {
+    display: block;
+    text-align: center;
+  }
+}
+
+/* Tablet */
+@media only screen and (max-width: 768px) {
+  .images-section {
+    display: block;
+    text-align: center;
+  }
+}
+
+/* Tablet Landscape */
+@media only screen and (max-width: 1024px) {
+  .images-section {
+
+  }
+}
+
+/* Laptop */
+@media only screen and (max-width: 1600px) {
+  .images-section {
+
+  }
 }
