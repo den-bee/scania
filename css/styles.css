@@ -58,11 +58,18 @@ body {
 
 /* Images-Section */
 .images-section {
-  display: grid;
-  column-gap: 10px;
-  row-gap: 15px;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: masonry;
+  columns: 3 200px;
+  column-gap: 1rem;
+}
+
+.images-section image {
+    width: 150px;
+    background: #EC985A;
+    color: white;
+    margin: 0 1rem 1rem 0;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
 }
 
 .more-button {
