@@ -6,6 +6,7 @@ html {
 body {
     font-family: 'Scania Sans Condensed V2';
     font-size: 1.8rem;
+    color: #12043b;
 }
 
 .container {
@@ -37,7 +38,7 @@ body {
 .mid-text {
   float: right;
   width: 50%;
-  text-align: center; 
+  text-align: center;
 }
 
 /* Bottom-Section */
@@ -92,14 +93,151 @@ body {
 }
 
 .image {
-    padding: 2rem;
-    border: thin solid red;
-    margin-bottom: 1rem;
+    margin: 1rem;
+}
 
+.image-one {
+  background-color: #ffd470;
+}
+
+.image-one h3 {
+  color: #e86609;
+}
+
+.image-one p {
+  padding-bottom: 20px;
+}
+
+.image-one h3, p {
+  padding: 0 20px 0 20px;
+}
+
+.image-two {
+  background-color: #c7eaff;
+}
+
+.image-two h3 {
+  color: #4179e0;
+}
+
+.image-two p {
+  padding-bottom: 20px;
+}
+
+.image-two h3, p {
+  padding: 0 20px 0 20px;
+}
+
+.image-three {
+  background-color: #ffcffd;
+}
+
+.image-three h3 {
+  color: #e637bd;
+}
+
+.image-three p {
+  padding-bottom: 20px;
+}
+
+.image-three h3, p {
+  padding: 0 20px 0 20px;
+}
+
+.image-four {
+  background-color: #c7eaff;
+}
+
+.image-four h3 {
+  color: #4179e0;
+}
+
+.image-four p {
+  padding-bottom: 20px;
+}
+
+.image-four h3, p {
+  padding: 0 20px 0 20px;
+}
+
+.image-five {
+  background-color: #ffcffd;
+}
+
+.image-five h3 {
+  color: #e637bd;
+}
+
+.image-five p {
+  padding-bottom: 20px;
+}
+
+.image-five h3, p {
+  padding: 0 20px 0 20px;
+}
+
+.image-six {
+  background-color: #d1ffc4;
+}
+
+.image-six h3 {
+  color: #39ed4e;
+}
+
+.image-six p {
+  padding-bottom: 20px;
+}
+
+.image-six h3, p {
+  padding: 0 20px 0 20px;
+}
+
+.image-seven {
+  background-color: #d1ffc4;
+}
+
+.image-seven h3 {
+  color: #39ed4e;
+}
+
+.image-seven p {
+  padding-bottom: 20px;
+}
+
+.image-seven h3, p {
+  padding: 0 20px 0 20px;
+}
+
+.image-eight {
+  background-color: #ffd470;
+}
+
+.image-eight p {
+  padding-bottom: 20px;
+}
+
+.image-eight h3, p {
+  padding: 0 20px 0 20px;
+}
+
+.image-nine {
+  background-color: #c7eaff;
+}
+
+.image-nine h3 {
+  color: #4179e0;
+}
+
+.image-nine p {
+  padding-bottom: 20px;
+}
+
+.image-nine h3, p {
+  padding: 0 20px 0 20px;
 }
 
 .more-button {
-    background-color: blue;
+    background-color: #2878b5;
     border: none;
     color: white;
     padding: 5px 10px;
@@ -116,7 +254,8 @@ body {
 /* Footer */
 .footer {
     text-align: center;
-    background-color: blue;
+    color: white;
+    background-color: #052d4d;
     margin-top: 5rem;
 }
 
@@ -125,16 +264,14 @@ body {
 /* Mobile */
 @media only screen and (max-width: 480px) {
     body {
-        display: block;
-        text-align: center;
+
     }
 }
 
 /* Tablet */
 @media only screen and (max-width: 768px) {
     body {
-        display: block;
-        text-align: center;
+
     }
 }
 
